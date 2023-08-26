@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient( 319.6deg,  rgba(243,0,79,1) 20.5%, rgba(255,236,68,1) 110.9% );
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.container {
+  margin-top: 80px;
+  margin-bottom: 40px;
+  background-color: #242424;
+  width: 90%;
+  height: 90%;
+  border-radius: 20px;
+  min-height: 600px;
+}
+.heading {
+  text-align: center;
+  padding-top: 20px;
+  font-size: larger;
+  color: aliceblue;
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.formputs {
+  background-image: linear-gradient( 109.6deg,  rgba(17,94,199,1) 11.2%, rgba(63,241,152,0.79) 100.6% );
+  width: 55%;
+  border-radius: 4px;
+  padding: 4px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.formputs > input,button {
+  padding: 15px;
+  border: none;
+}
+
+.formputs >button,button:active {
+background-color: transparent;
+cursor: pointer;
+color: white;
+}
+
+.formputs > input {
+  background-color: #242424; 
+  color: white;
+  width: 85%;
+}
+.formputs > input:focus {
+outline: none;
+}
+.formputs > input::-webkit-input-placeholder {
+  color: white;
+}
+::placeholder {
+  color: white;
+}
+
+/** Items **/
+
+ol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  margin-top: 75px;
+  padding: 0;
+  flex-direction: column;
+  gap: 10px;
+}
+li {
+  width: 75%;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: aquamarine;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: white;
+}
+.text {
+  width: 80%;
+}
+.delete-icon:hover {
+  cursor: pointer;
+}
+.delete-icon {
+  height: 15px;
+  width: 15px;
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 2px;
+  fill: white;
+}
